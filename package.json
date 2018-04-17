@@ -1,0 +1,23 @@
+{
+  "name": "liri-node-app-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeline1093/liri-node-app-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madeline1093/liri-node-app-2/issues"
+  },
+  "homepage": "https://github.com/madeline1093/liri-node-app-2#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1"
+  }
+}
