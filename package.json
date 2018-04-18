@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/madeline1093/liri-node-app-2#readme",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "node-spotify-api": "^1.0.7",
+    "request": "^2.85.0",
     "twitter": "^1.7.1"
   }
 }
