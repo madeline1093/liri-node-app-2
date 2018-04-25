@@ -45,9 +45,14 @@ function pastTweets() {
     client.get("statuses/user_timeline/", params, function(error, tweets, response){
         if (!error) {
             for (let i = 0; i < tweets.length; i++){
-                console.log("Maddy tweeted: " + tweets[i].text + " on " + tweets[i].created_at);  
+                console.log("Maddy tweeted: " + tweets[i].text + " on " + tweets[i].created_at);
+                
+                fs.appendFile('log.txt', "-------------\nLIRI Command: MY-TWEETS" + "\n------------\n" + "Maddy tweeted: " + tweets[i].text + " on " + tweets[i].created_at + "\n", (err) => {
+                    if (err) throw err;
+                    //console.log(err);
+                }) 
             }
-
+        
         }
 
     })
@@ -75,6 +80,11 @@ function spotifySong(songTitle){
             let songURL = data.tracks.items[0].external_urls.spotify;
             console.log("Here is the song information you requested:");
             console.log("Song title: " + songName + "\n" + "Artist: " + songArtist + "\n" + "Album: " + songAlbum + "\n" + "Spotify link: " +songURL);
+
+            fs.appendFile('log.txt', "-------------\nLIRI Command: SPOTIFY-THIS-SONG" + "\n------------\n" + "Song title: " + songName + "\n" + "Artist: " + songArtist + "\n" + "Album: " + songAlbum + "\n" + "Spotify link: " +songURL + "\n", (err) => {
+                if (err) throw err;
+                //console.log(err);
+            }) 
         };
     });
 };
@@ -97,6 +107,11 @@ function movieSearch() {
         console.log(JSON.parse(body).Title)
 
         console.log("This movie's title is: " + JSON.parse(body).Title + "\nThe year the movie came out is: " + JSON.parse(body).Year  + "\nThe movie's IMDB rating is: " + JSON.parse(body).imdbRating + "\nThe movie's Rotten Tomatoes Rating is: " + JSON.parse(body).Ratings[1].Value + "\nCountry where the movie was produced: " + JSON.parse(body).Country + "\nLanguage(s): " + JSON.parse(body).Language + "\nPlot: " + JSON.parse(body).Plot + "\nActors/Actresses: " + JSON.parse(body).Actors);
+
+        fs.appendFile('log.txt', "-------------\nLIRI Command: MOVIE-THIS" + "\n------------\n" + "This movie's title is: " + JSON.parse(body).Title + "\nThe year the movie came out is: " + JSON.parse(body).Year  + "\nThe movie's IMDB rating is: " + JSON.parse(body).imdbRating + "\nThe movie's Rotten Tomatoes Rating is: " + JSON.parse(body).Ratings[1].Value + "\nCountry where the movie was produced: " + JSON.parse(body).Country + "\nLanguage(s): " + JSON.parse(body).Language + "\nPlot: " + JSON.parse(body).Plot + "\nActors/Actresses: " + JSON.parse(body).Actors + "\n", (err) => {
+            if (err) throw err;
+            //console.log(err);
+        }) 
       }
     });
 }
@@ -105,11 +120,25 @@ function whatItSays() {
     fs.readFile("random.txt", "utf8", function(err, data) {
         if (err) {
             return console.log(err);
-        }
-        data = data.split(",");
-        
-        console.log(data[1]);
+        } else {
+            let stringData = data.split(",");
+            let commandInput = stringData[0].trim();
+            let parameter = stringData[1].trim();
 
-        spotifySong(data[1]);
+            switch(commandInput) {
+                case 'my-tweets':
+                    pastTweets();
+                    break;
+                case "spotify-this-song":
+                    spotifySong();
+                    break;
+                case "movie-this":
+                    movieSearch();
+                    break;
+            }
+        }
+        
+        //console.log(data[1]);
+
     });
 }

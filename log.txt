@@ -1,0 +1,84 @@
+Maddy tweeted: #petallergiessuck on Wed Apr 18 00:54:55 +0000 2018Maddy tweeted: #ireallylovecats on Wed Apr 18 00:54:45 +0000 2018Maddy tweeted: #drinkingcoffee on Wed Apr 18 00:54:37 +0000 2018Maddy tweeted: scoot is a great teacher! on Wed Apr 18 00:53:43 +0000 2018Maddy tweeted: this is my first tweet! on Sat Apr 14 14:38:42 +0000 2018Maddy tweeted: #petallergiessuck on Wed Apr 18 00:54:55 +0000 2018
+Maddy tweeted: #ireallylovecats on Wed Apr 18 00:54:45 +0000 2018
+Maddy tweeted: scoot is a great teacher! on Wed Apr 18 00:53:43 +0000 2018
+Maddy tweeted: #drinkingcoffee on Wed Apr 18 00:54:37 +0000 2018
+Maddy tweeted: this is my first tweet! on Sat Apr 14 14:38:42 +0000 2018
+Maddy tweeted: #petallergiessuck on Wed Apr 18 00:54:55 +0000 2018
+Maddy tweeted: scoot is a great teacher! on Wed Apr 18 00:53:43 +0000 2018
+Maddy tweeted: #ireallylovecats on Wed Apr 18 00:54:45 +0000 2018
+Maddy tweeted: this is my first tweet! on Sat Apr 14 14:38:42 +0000 2018
+Maddy tweeted: #drinkingcoffee on Wed Apr 18 00:54:37 +0000 2018
+Maddy tweeted: #petallergiessuck on Wed Apr 18 00:54:55 +0000 2018
+Maddy tweeted: #ireallylovecats on Wed Apr 18 00:54:45 +0000 2018
+Maddy tweeted: scoot is a great teacher! on Wed Apr 18 00:53:43 +0000 2018
+Maddy tweeted: #drinkingcoffee on Wed Apr 18 00:54:37 +0000 2018
+Maddy tweeted: this is my first tweet! on Sat Apr 14 14:38:42 +0000 2018
+Maddy tweeted: #petallergiessuck on Wed Apr 18 00:54:55 +0000 2018
+Maddy tweeted: #ireallylovecats on Wed Apr 18 00:54:45 +0000 2018
+Maddy tweeted: #drinkingcoffee on Wed Apr 18 00:54:37 +0000 2018
+Maddy tweeted: scoot is a great teacher! on Wed Apr 18 00:53:43 +0000 2018
+Maddy tweeted: this is my first tweet! on Sat Apr 14 14:38:42 +0000 2018
+Maddy tweeted: #petallergiessuck on Wed Apr 18 00:54:55 +0000 2018
+Maddy tweeted: #ireallylovecats on Wed Apr 18 00:54:45 +0000 2018
+Maddy tweeted: scoot is a great teacher! on Wed Apr 18 00:53:43 +0000 2018
+Maddy tweeted: #drinkingcoffee on Wed Apr 18 00:54:37 +0000 2018
+Maddy tweeted: this is my first tweet! on Sat Apr 14 14:38:42 +0000 2018
+Song title: Lampshades on Fire
+Artist: Modest Mouse
+Album: Strangers to Ourselves
+Spotify link: https://open.spotify.com/track/5jJ69cMDMC0aeWPjZo6VP2
+This movie's title is: Isle of Dogs
+The year the movie came out is: 2018
+The movie's IMDB rating is: 8.1
+The movie's Rotten Tomatoes Rating is: 92%
+Country where the movie was produced: Germany, USA
+Language(s): English
+Plot: Set in Japan, Isle of Dogs follows a boy's odyssey in search of his dog.
+Actors/Actresses: Bryan Cranston, Koyu Rankin, Edward Norton, Liev Schreiber
+LIRI Command: MOVIE-THIS
+------------This movie's title is: Isle of Dogs
+The year the movie came out is: 2018
+The movie's IMDB rating is: 8.1
+The movie's Rotten Tomatoes Rating is: 92%
+Country where the movie was produced: Germany, USA
+Language(s): English
+Plot: Set in Japan, Isle of Dogs follows a boy's odyssey in search of his dog.
+Actors/Actresses: Bryan Cranston, Koyu Rankin, Edward Norton, Liev Schreiber
+-------------
+LIRI Command: MOVIE-THIS
+------------
+This movie's title is: Isle of Dogs
+The year the movie came out is: 2018
+The movie's IMDB rating is: 8.1
+The movie's Rotten Tomatoes Rating is: 92%
+Country where the movie was produced: Germany, USA
+Language(s): English
+Plot: Set in Japan, Isle of Dogs follows a boy's odyssey in search of his dog.
+Actors/Actresses: Bryan Cranston, Koyu Rankin, Edward Norton, Liev Schreiber
+-------------
+LIRI Command: SPOTIFY-THIS-SONG
+------------
+Song title: Dance Yrself Clean
+Artist: LCD Soundsystem
+Album: This Is Happening
+Spotify link: https://open.spotify.com/track/2cmRpmO04TLaKPzmAzySYZ
+-------------
+LIRI Command: MY-TWEETS
+------------
+Maddy tweeted: #petallergiessuck on Wed Apr 18 00:54:55 +0000 2018
+-------------
+LIRI Command: MY-TWEETS
+------------
+Maddy tweeted: #ireallylovecats on Wed Apr 18 00:54:45 +0000 2018
+-------------
+LIRI Command: MY-TWEETS
+------------
+Maddy tweeted: #drinkingcoffee on Wed Apr 18 00:54:37 +0000 2018
+-------------
+LIRI Command: MY-TWEETS
+------------
+Maddy tweeted: scoot is a great teacher! on Wed Apr 18 00:53:43 +0000 2018
+-------------
+LIRI Command: MY-TWEETS
+------------
+Maddy tweeted: this is my first tweet! on Sat Apr 14 14:38:42 +0000 2018
