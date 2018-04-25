@@ -10,7 +10,7 @@ let keys = require("./keys");
 //let client = new Twitter(keys.twitter);
 
 let input = process.argv[2];
-
+let inputTwo = process.argv[3];
 
 
 // if input is equal to my-tweets, call the twitter api and consolelog past 20 tweets
@@ -19,7 +19,7 @@ let input = process.argv[2];
 if (input === "my-tweets") {
     pastTweets();
 } else if ((input === 'spotify-this-song')){
-    spotifySong();
+    spotifySong(inputTwo);
 } else if (input === 'movie-this') {
     movieSearch();
 } else if (input === 'do-what-it-says') {
@@ -53,13 +53,13 @@ function pastTweets() {
     })
 }
 
-function spotifySong(){
+function spotifySong(songTitle){
     
-    let songTitle = process.argv[3];
+    //let songTitle = process.argv[3];
     
     if(!songTitle){
         songTitle = "the sign ace of base"
-    }
+    } 
 
     let spotify = new Spotify({
         id: keys.spotify.id,
@@ -102,5 +102,14 @@ function movieSearch() {
 }
 
 function whatItSays() {
+    fs.readFile("random.txt", "utf8", function(err, data) {
+        if (err) {
+            return console.log(err);
+        }
+        data = data.split(",");
+        
+        console.log(data[1]);
 
+        spotifySong(data[1]);
+    });
 }
